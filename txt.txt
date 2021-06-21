@@ -1,0 +1,32 @@
+
+npm init -y
+
+nmp i typescript -D
+npm install typescript -D
+
+
+--compilador de ts
+npx tsc
+
+npm i express pg
+
+
+--tipos de types
+npm i @types/express -D
+
+"test": "echo \"Error: no test specified\" && exit 1"
+
+npm i nodemon -D
+
+--ejecutar varios comandos
+npm i concurrently -D
+
+"dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\"",
+
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "build": "tsc"
+  },
+
+
+  npm i @types/pg -D
